@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  padding: 5rem;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: rgb(43, 151, 201);
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem 5rem;
+  display: flex;
+  flex-direction: column;
+
+  background: rgb(74, 182, 231);
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+h1 {
+  padding: 0.5rem 0;
+}
+
+label {
+  /* padding: 0.5rem; */
+  margin: 0.8rem 0 0.5rem 0;
+}
+
+.calculate {
+  margin: 2rem 0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.display-container {
+  font-size: 1.3rem;
+}
