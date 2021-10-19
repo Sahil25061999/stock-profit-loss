@@ -4,7 +4,7 @@
 }
 
 body {
-  padding: 5rem;
+  padding: 3rem;
   width: 100vw;
   height: 100vh;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -14,10 +14,9 @@ body {
 .container {
   max-width: 500px;
   margin: auto;
-  padding: 1rem 5rem;
+  padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
-
   background: rgb(74, 182, 231);
   border-radius: 0.5rem;
   border: 1px solid black;
